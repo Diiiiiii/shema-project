@@ -35,4 +35,7 @@ module.exports = {
            template: path.resolve(publicPath, "index.html"),
        }),
     ],
+    devServer: {
+        port: 9000,
+    },
 };
